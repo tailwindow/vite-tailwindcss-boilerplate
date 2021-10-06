@@ -5,6 +5,9 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  server: {
+    port: 8080
+  },
   resolve: {
     alias: [
       {
@@ -12,8 +15,5 @@ export default defineConfig({
         replacement: path.resolve(__dirname, 'src')
       }
     ]
-  },
-  server: {
-    port: 8080
   }
 })

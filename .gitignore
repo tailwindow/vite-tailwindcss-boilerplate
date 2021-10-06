@@ -1,5 +1,19 @@
+# Npm
 node_modules
+package-lock.json
+
+# OS
 .DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Envorinment variable
+.env
+*.local
+
+# Compiled
 dist
 dist-ssr
-*.local
