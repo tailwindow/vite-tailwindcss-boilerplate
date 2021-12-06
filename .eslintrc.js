@@ -5,16 +5,10 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  plugins: ['vue'],
-  extends: ['eslint:recommended', 'plugin:vue/vue3-recommended'],
+  plugins: ["vue"],
+  extends: ["eslint:recommended", "plugin:vue/vue3-recommended", "plugin:prettier/recommended"],
   rules: {
     // override/add rules settings here
+    "prettier/prettier": ["error", { endOfLine: "auto", printWidth: 120 }],
   },
-  parser: 'vue-eslint-parser',
-  parserOptions: {
-    ecmaVersion: 2021,
-    sourceType: 'module',
-    parser: 'babel-eslint',
-    allowImportExportEverywhere: false,
-  },
-}
+};
