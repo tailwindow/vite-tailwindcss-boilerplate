@@ -1,9 +1,8 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import welcome from '@/components/welcome.vue'
-import { computed } from 'vue';
-import { useHead } from '@vueuse/head'
+import { computed } from "vue";
+import { useHead } from "@vueuse/head";
 
 useHead({
   // Can be static or computed
@@ -14,15 +13,13 @@ useHead({
       content: computed(() => "about description"),
     },
   ],
-})
+});
 </script>
 
 <template>
   <div class="bg-gray-100">
-    <div class="my-1 container mx-auto">
-              <router-link to="/">
-        home
-      </router-link>
+    <div class="container my-1 mx-auto">
+      <router-link to="/"> home </router-link>
       Hello
     </div>
   </div>

@@ -1,4 +1,3 @@
-
 import AppLayout from "./layouts/AppLayout.vue";
 import Home from "./pages/Home.vue";
 
