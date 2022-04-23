@@ -19,8 +19,8 @@ useHead({
 
 <template>
   <div class="bg-gray-100">
-    <div class="container mx-auto">
-      <router-link to="/">
+    <div class="my-1 container mx-auto">
+              <router-link to="/">
         home
       </router-link>
       Hello

@@ -1,5 +1,11 @@
 {
+  "vueCompilerOptions": {
+    "experimentalShamefullySupportOptionsApi": true
+  },
+  "compilerOptions": {
+    "jsx": "preserve"
+  },
   "include": [
     "./src/**/*"
-  ]
+  ],
 }

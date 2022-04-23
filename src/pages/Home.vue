@@ -4,7 +4,7 @@ import { computed } from 'vue';
 import { useHead } from '@vueuse/head'
 
 useHead({
-  // Can be static or computed
+   // Can be static or computed
   title: computed(() => "title"),
   meta: [
     {
